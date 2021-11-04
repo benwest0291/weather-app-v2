@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(200deg, #fff, #03e3fc);
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+.card-outline {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, #0384fc, #03e3fc);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 730px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.btn-new {
+  background: linear-gradient(90deg, #0384fc, #03e3fc);
+  color: #fff !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 60px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#date {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#description {
+  font-size: 30px;
+  text-align: center;
+}
+
+#temperature {
+  font-size: 100px;
+  text-align: center;
+}
+
+#feels_like {
+  font-size: 20px;
+  text-align: center;
+}
+
+#icon {
+  width: 100px;
+  height: 100px;
+}
+
+input {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
