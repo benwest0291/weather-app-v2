@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(200deg, #fff, #03e3fc);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.city-form {
+  display: inline;
+}
+
+.card-outline {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, #0384fc, #03e3fc);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 430px;
+  height: 650px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.btn-new {
+  margin-top: 20px;
+  background: linear-gradient(90deg, #0384fc, #03e3fc);
+  color: #fff !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.card-body {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 60px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#city-form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#date {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#description {
+  font-size: 30px;
+  text-align: center;
+}
+
+#temperature {
+  font-size: 100px;
+  text-align: center;
+}
+
+#feels_like {
+  font-size: 20px;
+  text-align: center;
+}
+
+#icon {
+  width: 100px;
+  height: 100px;
+}
+
+input {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.main-heading {
+  margin-top: 10px;
+  color: #0384fc;
+  font-style: Bold;
+}
